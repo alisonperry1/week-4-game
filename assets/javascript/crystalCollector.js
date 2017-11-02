@@ -6,20 +6,20 @@ var losses = 0;
 var crystals;
 function randomNumCrystals() {
 return {
-pink: {
-points: Math.floor(Math.random() * 12) + 1,
-imageUrl: "assets/images/pink.png"
-},
 blue: {
-points: Math.floor(Math.random() * 12) + 1,
+points: Math.floor(Math.random() * 10) + 1,
 imageUrl: "assets/images/blue.png"
 },
 purple: {
-points: Math.floor(Math.random() * 12) + 1,
+points: Math.floor(Math.random() * 10) + 1,
 imageUrl: "assets/images/purple.png"
 },
+pink: {
+points: Math.floor(Math.random() * 10) + 1,
+imageUrl: "assets/images/pink.png"
+},
 clear: {
-points: Math.floor(Math.random() * 12) + 1,
+points: Math.floor(Math.random() * 10) + 1,
 imageUrl: "assets/images/clear.png"
 }
 };
