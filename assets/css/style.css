@@ -1,0 +1,40 @@
+body {
+background-color: black;
+background-repeat: repeat;
+}
+#screen div {
+float: left;
+}
+#screen {
+overflow: auto;
+}
+#title {
+
+}
+#random-area {
+
+}
+#rules-area {
+
+}
+
+.crystals-button {
+display: inline;
+}
+.crystal-img {
+width: 80px;
+height: 80px;
+cursor: pointer;
+}
+#score-number {
+
+}
+#score-title {
+
+}
+#score-area {
+
+}
+#win-area {
+
+}
